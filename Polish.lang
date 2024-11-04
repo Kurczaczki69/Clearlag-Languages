@@ -5,7 +5,7 @@
 # -- NOTE: The { ... } symbols represent a message block. This is applicable anywhere you want... Do not include any characters with {, or }
 
 ####----> Commands -->
-command.error.wrongUsage({usage},{name})=&cZłe użucie: &8/&7lagg {name} {usage}
+command.error.wrongUsage({usage},{name})=&cZłe użycie: &8/&7lagg {name} {usage}
 command.error.noPermission({name})=&cNie masz pozwolenia, żeby użyć &8/&7lagg {name}
 command.error.onlyForPlayer()=&cTa komenda może być używana tylko przez graczy!
 
@@ -19,8 +19,8 @@ command.lagg.helpline({name},{desc})= &4- &8/&3lagg &b{name} &f -  {desc}
 command.admin.name()=admin
 command.admin.desc()=(Kontrola modułów Clearlag)
 command.admin.usage()=
-command.admin.enabledModules({moduleList})=&aWłączone przewadowalne moduły: &7{moduleList}
-command.admin.noReloadableFields({module})={module} &cnie zawiera żadnych przewadowalnych pól!
+command.admin.enabledModules({moduleList})=&aWłączone przeładowalne moduły: &7{moduleList}
+command.admin.noReloadableFields({module})={module} &cnie zawiera żadnych przeładowalnych pól!
 command.admin.notEnabled({module})=&cTen moduł nie jest aktywny!
 command.admin.reload({module})=&aModuł {module} został przeładowany!
 command.admin.failedReload({module})=&cNiepowodzenie przeładowania modułu: {module}
@@ -59,7 +59,7 @@ command.checkchunk.name()=checkchunk
 command.checkchunk.usage()=
 command.checkchunk.desc()=(Wyświetla byty chunka)
 command.checkchunk.header()=&4*&3&m                            &8(&a&lInformacje o chunku&8)&3&m                              &4*
-command.checkchunk.tilelist()=&3 Tile Entities&8:
+command.checkchunk.tilelist()=&3 Byty kafelkowe&8:
 command.checkchunk.entitylist()=&3 Byty&8:
 command.checkchunk.line({count},{type})=   &8- &ax{count} &7{type}
 command.checkchunk.footer()=&4*&3&m                                                                             &4*
